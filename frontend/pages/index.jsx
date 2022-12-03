@@ -8,7 +8,12 @@ export default function Home() {
     <main>
       <div>Welconme to Knowmyrecords</div>
       <div>View More</div>
-      <div>Authorize</div>
+      <div
+      className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-5"
+      onClick={() => {
+        
+      }}
+      >Authenticate Pending Requests</div>
     </main>
   )
 }
